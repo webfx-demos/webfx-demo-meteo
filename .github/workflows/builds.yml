@@ -40,7 +40,7 @@ jobs:
             os: ubuntu-latest
             # Note: 1) must run on Ubuntu because the GitHub push action (to update the web-build branch) works only on Ubuntu
             j2cl-artifact-suffix:          'Web.war'                            # build 1)
-            fatjar-artifact-suffix:        'Linux-x64-runnable.jar'             # build 2)
+            #fatjar-artifact-suffix:        'Linux-x64-runnable.jar'             # build 2)
             jvm-deb-artifact-suffix:       'Linux-x64-jvm-package.deb'          # build 3)
             jvm-rpm-artifact-suffix:       'Linux-x64-jvm-package.rpm'          # build 4)
             gluon-desktop-arch-token:      'x86_64-linux'                       # build 5)
@@ -56,7 +56,7 @@ jobs:
 
           - os-config: 3 # Generates builds 7) 8) 9) & 10)
             os: windows-latest
-            fatjar-artifact-suffix:        'Windows-x64-runnable.jar'           # build 7)
+            #fatjar-artifact-suffix:        'Windows-x64-runnable.jar'           # build 7)
             jvm-exe-artifact-suffix:       'Windows-x64-jvm-installer.exe'      # build 8)
             jvm-msi-artifact-suffix:       'Windows-x64-jvm-installer.msi'      # build 9)
             gluon-desktop-arch-token:      'x86_64-windows'                     # build 10)
