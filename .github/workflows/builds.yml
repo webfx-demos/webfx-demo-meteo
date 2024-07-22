@@ -67,7 +67,7 @@ jobs:
 
           - os-config: 4 # Generates builds 11) 12) 13) 14) & 15)
             os: macos-latest
-            fatjar-artifact-suffix:        'MacOS-x64.jar'                      # build 11)
+            #fatjar-artifact-suffix:        'MacOS-x64.jar'                      # build 11)
             jvm-dmg-artifact-suffix:       'MacOS-x64-jvm.dmg'                  # build 12)
             jvm-pkg-artifact-suffix:       'MacOS-x64-jvm.pkg'                  # build 13)
             # Commented MacOS Desktop due to new error from Gluon plugin: No valid Identity (Certificate) found for macOS development.
